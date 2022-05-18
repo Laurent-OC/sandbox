@@ -10,8 +10,8 @@ resources:
 - ../../base/service.yaml
 - ../../base/ingress.yaml
 
-patchesStrategicMerge:
-- deployment.yaml
+# patchesStrategicMerge:
+# - deployment.yaml
 
 # vars:
 # - name: IMAGE_NAME
