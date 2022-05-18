@@ -12,6 +12,9 @@ spec:
       maxUnavailable: 1
     type: RollingUpdate
   template:
+    metadata:
+      labels:
+        deployment: occoursesexplorer
     spec:
       containers:
       - name: occoursesexplorer
